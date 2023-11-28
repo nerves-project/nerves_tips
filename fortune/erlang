@@ -1,0 +1,2 @@
+Debug GenServer restarts by logging SASL reports. See the Elixir Logger's `:handle_sasl_reports` option.
+%

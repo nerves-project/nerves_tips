@@ -1,0 +1,18 @@
+Nerves stores all BEAM files on a read-only filesystem to minimize the chance of corruption.
+%
+Need to write to disk? Store your settings, databases, and logs under `/data`.
+%
+The NervesPack library pulls in useful Nerves dependencies. Trim your firmware by replacing it with only the dependencies you need.
+%
+Nerves uses a hardware watchdog to recover from Erlang VM and other hangs. https://embedded-elixir.com/post/2018-12-10-heart/
+%
+Make small code changes to your running application by copy/pasting Elixir source files at the IEx prompt.
+%
+Nerves uses the `boardid` program to read hardware serial numbers. Run `cmd("boardid")` and see
+https://github.com/nerves-project/boardid
+%
+Nerves has small examples at https://github.com/nerves-project/nerves_examples
+%
+Get some insights to Nerves internals with this high level overview of the
+Nerves architecture and choice to use the BEAM VM. https://youtu.be/VzOaSvTcvU4
+%

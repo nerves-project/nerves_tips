@@ -1,0 +1,8 @@
+Use `RingLogger.next` to see log messages you might have missed.
+%
+Run `log_attach` in the IEx to watch log messages as they arrive. `log_detach` stops messages
+%
+The `RamoopsLogger` backend stores log messages in a special memory location that can survive unexpected reboots. https://hex.pm/packages/ramoops_logger
+%
+`RingLogger.viewer` starts a text-based UI for reviewing loggers. Type `h` for instructions.
+%

@@ -1,0 +1,4 @@
+Erlinit starts the Erlang VM on boot. See the erlinit docs for debugging boot issues.
+%
+Exiting the Erlang VM reboots. Add "config :nerves, :erlinit, hang_on_init: true" to your config.exs to avoid reboot loops when debugging.
+%

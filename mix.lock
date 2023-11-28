@@ -1,0 +1,3 @@
+%{
+  "fortune": {:hex, :fortune, "0.1.1", "6aa5a891082bdb0140405935c6d2bbd991809b17080926be0c1ed6f3a4d74adf", [:mix], [], "hexpm", "4c0ed2aef8e7c9029b40fb45dd1cbce65e87ad0dc82fa56938ee1738720e4fdd"},
+}

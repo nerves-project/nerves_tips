@@ -1,0 +1,4 @@
+Find Elixir sensor and hardware libraries at https://elixir-circuits.github.io/.
+%
+Run `Circuits.I2C.detect_devices/0` to see what's on the I2C buses.
+%

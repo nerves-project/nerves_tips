@@ -1,0 +1,6 @@
+Run `Nerves.Runtime.revert` to go back to the previously loaded firmware.
+%
+`Nerves.Runtime.poweroff` turns off boards that support it. Otherwise it reboots.
+%
+`Nerves.Runtime.Heart.status` shows information about the hardware watchdog and Erlang's `heart` program.
+%

@@ -1,0 +1,8 @@
+Run `dmesg` to see Linux kernel log messages.
+%
+Use `cmd/1` to run Linux programs at the IEx prompt but also see Elixir's `File` module.
+%
+Run `ifconfig` to see basic network interface information.
+%
+Run `weather` to check that the device you're using is where you think it is!
+%
