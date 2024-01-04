@@ -1,2 +1,6 @@
 Use `mix firmware.unpack` to decompress firmware images and see their contents
 %
+By default, the `mix firmware.burn` task clears out the application data
+partition so it is guaranteed to be empty when the device boots. Use `--task
+upgrade` option explicitly when you want to keep `/data`.
+%
