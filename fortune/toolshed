@@ -6,3 +6,59 @@ Run `ifconfig` to see basic network interface information.
 %
 Run `weather` to check that the device you're using is where you think it is!
 %
+Run `ping` and `tcping` to check if a remote host is using ICMP or TCP.
+%
+Run `cat/1` to read and print out the contents of a file.
+%
+Run `date` to print the date and time in UTC.
+%
+Run `exit` to exit the current IEx session.
+%
+Run `fw_validate` to validate a firmware image.
+%
+Run `grep(regex, path)` to run a regular expression on a file and print the matching lines.
+%
+Run `hex(value)` to inspect a value with all integers printed out in hex.
+%
+Run `history` to print out the IEx shell history.
+%
+Run `hostname` to view your device's hostname.
+%
+Run `httpget(url)` to perform an HTTP GET request for the specified URL.
+%
+Run `inspect_bits(value)` to pretty print a number in hex, octal and binary.
+%
+Run `load_term!(path)` to load an Erlang term from the filesystem.
+%
+Run `lsmod` to print out the loaded kernel modules.
+%
+Run `lsof` to list out open files by process.
+%
+Run `lsusb` to print out information on all of the connected USB devices.
+%
+Run `multicast_addresses` to list all active multicast addresses.
+%
+Run `nslookup(name)` to lookup the specified hostname in the DNS and print out the addresses.
+%
+Run `poweroff` to power off your device gracefully.
+%
+Run `qr_encode(message)` to generate an ASCII art QR code.
+%
+Run `reboot` to reboot your device gracefully. It may take some time before the real reboot.
+%
+Run `reboot!` to reboot immediately without a graceful shutdown. This is for the impatient.
+%
+Run `save_term!(value, path)` to save an erlang term to the filesystem for easy loading later.
+%
+Run `save_value(value, path)` to save a value to a file as Elixir terms.
+%
+Run `speed_test` to perform a download speed test.
+%
+Run `top` to interactively show the top Elixir processes.
+%
+Run `tree` to print out directories and files in tree form.
+%
+Run `uname` to print out information about the running software.
+%
+Run `uptime` to print out the current uptime.
+%

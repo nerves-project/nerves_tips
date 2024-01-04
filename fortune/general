@@ -16,3 +16,57 @@ Nerves has small examples at https://github.com/nerves-project/nerves_examples
 Get some insights to Nerves internals with this high level overview of the
 Nerves architecture and choice to use the BEAM VM. https://youtu.be/VzOaSvTcvU4
 %
+Nerves System is a lean Buildroot-based Linux that boots directly to the BEAM VM.
+%
+The default target is `host` unless you specify a different target in your environment.
+https://hexdocs.pm/nerves/supported-targets.html
+%
+Different targets may support different ways to connect to your Nerves target device:
+Ethernet, WiFi, USB-to-TTL serial cable, HDMI cable, USB data cable, etc
+%
+Downloaded Nerves artifacts are cached in `~/.nerves`. It is always safe to delete that directory to reclaim disk space.
+%
+Find supported features per target in the nerves_system_<target> documentation.
+E.g., https://hexdocs.pm/nerves_system_rpi4
+%
+Nerves uses the Linux kernel but very little of the standard Linux userland.
+%
+The Nerves System dependency determines the OTP version running on the target.
+https://hexdocs.pm/nerves/systems.html#compatibility
+%
+The default target is `host` unless you specify a different target in your environment.
+https://hexdocs.pm/nerves/supported-targets.html
+%
+The Nerves Project is spread over many repositories forcusing on a limited scope per repository.
+https://github.com/nerves-project/nerves
+%
+Most Nerves projects use the VintageNet library for configuring the network.
+https://hexdocs.pm/vintage_net
+%
+The Toolshed package contains many useful commands. For info, run `h Toolshed`.
+%
+If you're used to the Linux commandline, many Toolshed helpers will seem familiar except with an Elixir twist.
+For info, run `h Toolshed`.
+%
+Check out Elixir Discord #nerves channel: https://discord.gg/elixir
+%
+Check out Nerves Forum: https://elixirforum.com/c/nerves-forum/74
+%
+Check out Nerves Meetup: https://www.meetup.com/nerves
+%
+Check out Nerves Newsletter: https://underjord.io/nerves-newsletter.html
+%
+Nerves includes a minimal version of busybox to support running simple shell
+scripts and access network configuration utilities that do not have analogs in
+Erlang/OTP.
+%
+When connecting to your target device using a USB-to-TTL serial cable or an
+HDMI cable, and before booting up your device, you may see device messages
+related to the booting process in the IEx console.
+%
+Get USB-to-TTL serial cable if not already. It is useful for debugging
+networking or the boot process and for advanced development workflows.
+%
+Find Nerves videos on YouTube. https://www.youtube.com/@nervesproject
+%
+
