@@ -69,4 +69,5 @@ networking or the boot process and for advanced development workflows.
 %
 Find Nerves videos on YouTube. https://www.youtube.com/@nervesproject
 %
-
+To manipulate files in your Elixir program, use File module https://hexdocs.pm/elixir/File.html
+%
