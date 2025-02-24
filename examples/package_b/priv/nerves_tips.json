@@ -1,0 +1,7 @@
+[
+  {
+    "text": "Nerves uses a hardware watchdog to recover from hangs.",
+    "level": "advanced",
+    "topic": "package_b"
+  }
+]
