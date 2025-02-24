@@ -1,0 +1,29 @@
+defmodule SampleApp.MixProject do
+  use Mix.Project
+
+  def project do
+    [
+      app: :sample_app,
+      version: "0.1.0",
+      elixir: "~> 1.18",
+      start_permanent: Mix.env() == :prod,
+      deps: deps()
+    ]
+  end
+
+  # Run "mix help compile.app" to learn about applications.
+  def application do
+    [
+      extra_applications: [:logger]
+    ]
+  end
+
+  # Run "mix help deps" to learn about dependencies.
+  defp deps do
+    [
+      {:nerves_tips, path: "../.."},
+      {:package_a, path: "../package_a"},
+      {:package_b, path: "../package_b"},
+    ]
+  end
+end
